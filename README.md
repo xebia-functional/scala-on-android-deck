@@ -6,6 +6,8 @@ slidenumbers: true
 ---
 #whoami
 
+⇒ CTO & Co-Founder at 47 Degrees, a global consulting agency & Typesafe Consulting Partner.
+
 ![inline](https://raw.githubusercontent.com/47deg/scala-on-android-deck/master/assets/47.png)
 
 @raulraja
@@ -515,9 +517,11 @@ class MyActor extends FragmentActor[MyFragment] {
 
 # OS Apps ⇒ _**`Scala API Demos`**_
 
-//TODO link here
+### https://play.google.com/store/apps/details?id=com.fortysevendeg.scala.android
 
-![inline]()
+### https://github.com/47deg/scala-android
+
+![inline](https://raw.githubusercontent.com/47deg/scala-on-android-deck/master/assets/scala-api-demos.png)
 
 ---
 
@@ -525,5 +529,12 @@ class MyActor extends FragmentActor[MyFragment] {
 
 @raulraja
 @47deg
+raul at 47deg.com
 http://47deg.com/blog
+
+## https://speakerdeck.com/raulraja/scala-on-android-the-current-state-of-affairs
+
+## https://github.com/47deg/scala-on-android-deck
+
+
 
