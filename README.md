@@ -5,6 +5,9 @@ slidenumbers: true
 
 ---
 #whoami
+
+![inline](https://raw.githubusercontent.com/47deg/scala-on-android-deck/master/assets/47.png)
+
 @raulraja
 @47deg
 http://47deg.com/blog
@@ -122,9 +125,16 @@ button.setOnClickListener(new OnClickListener() {
 })
 layout.addView(button)
 
+
+```
+
+---
+
+# Libraries ⇒ Scaloid ⇒ _**`Simplifying the Android SDK`**_
+
+```scala
 //with Scaloid
 SButton("Greet", toast("Hello!"))
-
 
 ```
 
@@ -160,6 +170,7 @@ SButton("Greet", toast("Hello!"))
 # Libraries ⇒ Scaloid ⇒ _**`XML-less layouts`**_
 
 ```scala
+//with scaloid
 new SVerticalLayout {
   STextView("Sign in").textSize(24.5 sp).<<.marginBottom(25 dip).>>
   STextView("ID")
@@ -187,7 +198,14 @@ new AsyncTask[String, Void, String] {
     alert("Done!", result)
   }
 }.execute("param")
+```
 
+---
+
+# Libraries ⇒ Scaloid ⇒ _**`Futures & Async`**_
+
+
+```scala
 //scaloid
 Future {
   val result = doAJobTakeSomeTime(params)
@@ -222,19 +240,15 @@ class GreetingActivity extends Activity with Contexts[Activity] {
 
 ---
 
-# Libraries ⇒ Macroid ⇒ _**`Functional composition`**_
+# Libraries ⇒ Macroid ⇒ _**`UI composition`**_
 
 ```scala
 // ActivityContext is an Android Context obtained from an Activity
 import macroid.ActivityContext
-
-// A module with layouts
-object OurLayouts {
+  ...
   def layout1(implicit ctx: ActivityContext) =
     l[LinearLayout](
-      w[TextView],
-      w[ImageView],
-      w[Button]
+      w[TextView]
     )
 
   def layout2(implicit ctx: ActivityContext) =
@@ -247,7 +261,7 @@ object OurLayouts {
       layout1,
       layout2
     )
-}
+  ...
 ```
 
 ---
@@ -277,13 +291,11 @@ import macroid.AppContext
 // More tweaks
 import macroid.contrib.TextTweaks
 
-// A module with custom tweaks
-object MyTweaks {
-  def greeting(greeting: String)(implicit appCtx: AppContext) =
+def greeting(greeting: String)(implicit appCtx: AppContext) =
     TextTweaks.large +
     text(greeting) +
     hide
-}
+
 
 ```
 
@@ -466,18 +478,14 @@ Handling Fragment events & messaging with Actors.
 
 ```scala
 class MyActor extends FragmentActor[MyFragment] {
-
   def receive = receiveUi andThen {
     case MyMessage(x) ⇒ ...
-
     case MyOtherMessage ⇒ withUi(fragment ⇒ Ui {
       // do some cool ui stuff here
     })
-
-    case FragmentActor.AttachUi(_) ⇒ 
-    case FragmentActor.DetachUi(_) ⇒
+    case FragmentActor.AttachUi(_) ⇒ ...
+    case FragmentActor.DetachUi(_) ⇒ ...
   }
-  
 }
 
 ```
@@ -486,7 +494,9 @@ class MyActor extends FragmentActor[MyFragment] {
 
 # OS Apps ⇒ _**`Translate Bubble`**_
 
-//TODO link here
+https://play.google.com/store/apps/details?id=com.fortysevendeg.translatebubble
+
+https://github.com/47deg/translate-bubble-android
 
 ![inline]()
 
