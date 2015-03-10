@@ -407,7 +407,7 @@ editText <~ text("foo") <~~ fadeIn <~ enable
 ```scala
 (myProgressBar <~~ fadeOut(400)) ~~
 (myTextView <~~ blink) ~~
-(myOtherTextView <~ text("’Scala by the SEA!"))
+(myOtherTextView <~ text("’Scala at the Sea!"))
 
 ```
 
