@@ -4,6 +4,12 @@ slidenumbers: true
 ![Scala on Android, The current state of affairs](https://raw.githubusercontent.com/47deg/scala-on-android-deck/master/assets/01@2x.png)
 
 ---
+#whoami
+@raulraja
+@47deg
+http://47deg.com/blog
+
+---
 
 Build Tools
 
