@@ -494,19 +494,22 @@ class MyActor extends FragmentActor[MyFragment] {
 
 # OS Apps ⇒ _**`Translate Bubble`**_
 
-https://play.google.com/store/apps/details?id=com.fortysevendeg.translatebubble
+### https://play.google.com/store/apps/details?id=com.fortysevendeg.translatebubble
 
-https://github.com/47deg/translate-bubble-android
+### https://github.com/47deg/translate-bubble-android
 
-![inline]()
+![inline](https://raw.githubusercontent.com/47deg/scala-on-android-deck/master/assets/translatebubble.png)
 
 ---
 
 # OS Apps ⇒ _**`Scala Days Official App`**_
 
-//TODO link here
+### https://play.google.com/store/apps/details?id=com.fortysevendeg.android.scaladays
 
-![inline]()
+### https://github.com/47deg/scala-days-android 
+(available on March 15th)
+
+![inline](https://raw.githubusercontent.com/47deg/scala-on-android-deck/master/assets/translatebubble.png)
 
 ---
 
