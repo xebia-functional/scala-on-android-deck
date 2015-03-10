@@ -507,9 +507,9 @@ class MyActor extends FragmentActor[MyFragment] {
 ### https://play.google.com/store/apps/details?id=com.fortysevendeg.android.scaladays
 
 ### https://github.com/47deg/scala-days-android 
-(available on March 15th)
+(source code available on March 15th)
 
-![inline](https://raw.githubusercontent.com/47deg/scala-on-android-deck/master/assets/translatebubble.png)
+![inline](https://raw.githubusercontent.com/47deg/scala-on-android-deck/master/assets/scaladays.png)
 
 ---
 
