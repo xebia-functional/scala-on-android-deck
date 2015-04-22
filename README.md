@@ -4,13 +4,12 @@ slidenumbers: true
 ![Scala on Android, The current state of affairs](https://raw.githubusercontent.com/47deg/scala-on-android-deck/master/assets/01@2x.png)
 
 ---
-#whoami
-
-⇒ CTO & Co-Founder at 47 Degrees, a global consulting agency & Typesafe Consulting Partner.
+⇒ 47 Degrees, a global consulting agency & Typesafe Consulting Partner.
 
 ![inline](https://raw.githubusercontent.com/47deg/scala-on-android-deck/master/assets/47.png)
 
 @raulraja
+@javielinux
 @47deg
 http://47deg.com/blog
 
@@ -407,7 +406,7 @@ editText <~ text("foo") <~~ fadeIn <~ enable
 ```scala
 (myProgressBar <~~ fadeOut(400)) ~~
 (myTextView <~~ blink) ~~
-(myOtherTextView <~ text("’Scala at the Sea!"))
+(myOtherTextView <~ text("Scala Madrid!"))
 
 ```
 
@@ -528,8 +527,8 @@ class MyActor extends FragmentActor[MyFragment] {
 # Thank you
 
 @raulraja
+@javielinux
 @47deg
-raul at 47deg.com
 http://47deg.com/blog
 
 ## https://speakerdeck.com/raulraja/scala-on-android-the-current-state-of-affairs
